@@ -27,6 +27,5 @@ urlpatterns = [
     re_path('^product/(?P<year>[\d]{4})/(?P<month>[0-9]{1,2})$', views.productFourYM, name = 'productFourYM'),
     re_path('^product/(?P<year>[\d]{4})/(?P<month>[0-9]{1,2})/(?P<day>[\d]{1,2})$', views.productFourYMD, name = 'productFourYMD'),
     re_path('^product/(?P<word>[\w]+)$', views.productText, name = 'productText'),
-    # path('product/2020/20', views.poroduct2020),
 
 ]

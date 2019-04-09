@@ -3,11 +3,11 @@ from django.shortcuts import HttpResponse, HttpResponseRedirect
 # Create your views here.
 # Request 1
 def product(request):
-    return HttpResponse('application2/product')
+    return HttpResponse('application1/product')
 
 # Request 2
 def poroduct2019(request):
-    return HttpResponse('poroduct2019')
+    return HttpResponse('product2019')
 
 # Request 3
 def productFour(request, year):
@@ -52,7 +52,7 @@ def productText(request, word):
 
 # Request 7
 def folder(request):
-    return HttpResponseRedirect("/Application2/folder/Product1")
+    return HttpResponseRedirect("/Application1/folder/Product1")
 
 # Request 8
 def ReFolder(request , num = "1"):

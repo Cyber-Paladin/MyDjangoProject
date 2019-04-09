@@ -38,7 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'Awesomesite.apps.AwesomesiteConfig',
-    'Awesomeapp1.apps.Awesomeapp1Config'
+    'Awesomeapp1.apps.Awesomeapp1Config',
+    'Awesomeapp2.apps.Awesomeapp2Config',
 ]
 
 MIDDLEWARE = [
